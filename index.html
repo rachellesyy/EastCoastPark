@@ -3,104 +3,113 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<title>Rediscovering East Coast Park</title>
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+<title>Rediscovering East Coast Park</title>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
 	
-	<style>
-		p.ecp {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:60px; line-height:0.1;}
-		p.rediscover {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:20px; line-height:0.1;}
-		p.about {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:18px; line-height:1.5;}
+<style>
+	
+	p.ecp {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:60px; line-height:0.1;}
+	p.rediscover {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:20px; line-height:0.1;}
+	p.about {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:18px; line-height:1.5;}
 
-		/* Navbar */
+	/* Navbar */
 
-		.nav{
+	.nav{
  		border:1px solid white;
 		border-width:1px 0;
 		list-style:none;
 		margin:0;
 		padding:0;
 		text-align:center;
-		}
-		.nav li{display:inline;}
+	}
+	
+	.nav li{display:inline;}
 
-		.nav a{
+	.nav a{
 		 display:inline-block;
 		 padding:10px 30px;
 		 color: #d59696; 
 		 font-family:Satisfy;
 		font-size:25px;
 		 text-decoration:none;
-		}
+	}
 		
-	</style>
+</style>
 	
 </head>
 
 <body>
+
 <br>
+
 <ul class="nav">
   <li><a href="#about">About</a></li>
   <li><a href="#activities">Activities</a></li>
   <li><a href="#location">Location</a></li>
 </ul>
 
-<hr width="100%" size="50px" color="grey">
+<hr width="100%" color="grey">
 	
 <!-- Gallery -->
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <body>
 
-	<p class="ecp"><b> East Coast Park </b></p>
-	<p class="rediscover">
-		rediscovering the nation's favourite park
-	</p>
-	<br>
-	<div class="w3-content w3-section">
-		<img class="mySlides w3-animate-fading" src="ecp1.jpg" style="height:100%; width:100%;">
-		<img class="mySlides w3-animate-fading" src="ecp2.jpg" style="height:100%; width:100%;">
-		<img class="mySlides w3-animate-fading" src="ecp3.jpg" style="height:100%; width:100%;">
-		<img class="mySlides w3-animate-fading" src="ecp4.jpg" style="height:100%; width:100%;">
+<p class="ecp"><b> East Coast Park </b></p>
+<p class="rediscover">
+	rediscovering the nation's favourite park
+</p>
 	
-		<script>
-		var myIndex = 0;
-		carousel();
+<br>
+	
+<div class="w3-content w3-section">
+	<img class="mySlides w3-animate-fading" src="ecp1.jpg" style="height:100%; width:100%;">
+	<img class="mySlides w3-animate-fading" src="ecp2.jpg" style="height:100%; width:100%;">
+	<img class="mySlides w3-animate-fading" src="ecp3.jpg" style="height:100%; width:100%;">
+	<img class="mySlides w3-animate-fading" src="ecp4.jpg" style="height:100%; width:100%;">
+	
+	<script>
+	var myIndex = 0;
+	carousel();
 
-		function carousel() {
-		var i;
-		var x = document.getElementsByClassName("mySlides");
-		for (i = 0; i < x.length; i++) {
-		x[i].style.display = "none";  
-		}
-		myIndex++;
-		if (myIndex > x.length) {myIndex = 1}    
-		x[myIndex-1].style.display = "block";  
-		setTimeout(carousel, 7500);    
-		}
-		</script>
+	function carousel() {
+	var i;
+	var x = document.getElementsByClassName("mySlides");
+	for (i = 0; i < x.length; i++) {
+	x[i].style.display = "none";  
+	}
+	myIndex++;
+	if (myIndex > x.length) {myIndex = 1}    
+	x[myIndex-1].style.display = "block";  
+	setTimeout(carousel, 7500);    
+	}
+		
+	</script>
 						
-	</div>
+</div>
 	
 </body>
 	
 <!-- About -->
 <section class="about" id="about">
-<br>
-	<p class="about">
-		<span style="color:#d59696; font-size: 30px;">S</span>ince its opening in the 1970s, <span style="color:#d59696; font-size:20px;"><b>East Coast Park</b></span>, Singapore's largest park, has been one of the nation's most popular and treasured urban getaways. With a scenic coastline that stretches over 15km and an exciting diversity of sporting, dining and recreational activities offered, it's no wonder. 
-	</p>
 	
-	<p class="about">
-		<span style="color:#d59696; font-size: 30px;">H</span>owever, despite attracting more than <span style="color:#d59696;font-size:20px;"><b><i>7 million people</span></b></i> a year, there are still many features of the beautiful park its visitors don't know about. 
-	</p>
+<br>
+	
+<p class="about">
+	<span style="color:#d59696; font-size: 30px;">S</span>ince its opening in the 1970s, <span style="color:#d59696; font-size:20px;"><b>East Coast Park</b></span>, Singapore's largest park, has been one of the nation's most popular and treasured urban getaways. With a scenic coastline that stretches over 15km and an exciting diversity of sporting, dining and recreational activities offered, it's no wonder. 
+</p>
+	
+<p class="about">
+	<span style="color:#d59696; font-size: 30px;">H</span>owever, despite attracting more than <span style="color:#d59696;font-size:20px;"><b><i>7 million people</span></b></i> a year, there are still many features of the beautiful park its visitors don't know about. 
+</p>
 			
-	<p class="about">
-		<span style="color:#d59696">Think you know all about East Coast Park? Well, be prepared to be surprised!</span>
-	</p>
+<p class="about">
+	<span style="color:#d59696">Think you know all about East Coast Park? Well, be prepared to be surprised!</span>
+</p>
 			
 </section>
 	
