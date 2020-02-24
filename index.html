@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<title>3Rediscovering East Coast Park</title>
+	<title>Rediscovering East Coast Park</title>
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 	
 	<style>
@@ -14,26 +14,29 @@
 		p.rediscover {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:20px;}
 		p.about {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:18px; line-height:1.5;}
 	
-		ul {
-		  list-style-type: none;
-		  margin: 0;
-		  padding: 0;
+		.navbar {
 		  overflow: hidden;
 		  background-color: white;
+		  position: fixed;
+		  top: 0;
+		  width: 100%;
 		}
 
-		li {float: right;}
-
-		li a, .dropbtn {
-		  display: inline-block;
+		.navbar a {
+		  float: right;
+		  display: block;
 		  color: #d59696;
-		  font-family: Open Sans;
+		  font-family:Open Sans;
 		  text-align: center;
-		  padding: 14px 16px;
+		  padding: 16px 16px;
 		  text-decoration: none;
+		  font-size: 17px;
 		}
 
-		li a:hover, .dropdown:hover .dropbtn {background-color: black;}
+		.navbar a:hover {
+		  background: black;
+		  color: #d59696;
+		}
 
 	</style>
 	
@@ -53,11 +56,11 @@
 
 			<div class="collapse navbar-collapse" id="main-menu">
 			   <ul class="nav navbar-nav navbar-right">
-				<li><a href="#gallery">Gallery</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#activities">Activities</a></li>
-				<li><a href="#location">Location</a></li>
 				
+				<li><a href="#location">Location</a></li>
+				<li><a href="#activities">Activities</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#gallery">Gallery</a></li>
 			  </ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
