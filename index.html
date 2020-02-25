@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>2Rediscovering East Coast Park</title>
+<title>Rediscovering East Coast Park</title>
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
 	
@@ -41,15 +41,31 @@
 		text-decoration:none;
 	}
 	
-	/* Hover Images */
-	
-	.container {
-		position: relative;
-		width: 50%;
+	/* Side by Side Images */
+
+	.column {
+		float: left;
+		width: 40%;
+		padding: 0px 20px;
 	}
 
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+ 	}
+ 
+	/* Overlaying */
+ 
+	.container {
+		position: relative;
+		width: 100%;
+		left:30%;
+	}
+ 
 	.image {
 		display: block;
+		width: 100%;
 		height: auto;
 	}
 
@@ -60,11 +76,11 @@
 		left: 0;
 		right: 0;
 		height: 100%;
-		width: 80%;
+		width: 100%;
 		opacity: 0;
 		transition: .5s ease;
 		background-color: #d4c69e;
-		}
+	}
 
 	.container:hover .overlay {opacity: 1;}
 
@@ -79,9 +95,9 @@
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 		text-align: center;
-		}
-
-	.texttext{
+	}
+        
+        .texttext{
 		color: white;
 		font-size: 18px;
 		font-family:Playfair Display;
@@ -92,7 +108,7 @@
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 		text-align: center;
-		}
+	}
 	
 	.texttext2{
 		color: white;
@@ -105,21 +121,6 @@
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 		text-align: center;
-		}
-	
-		* {box-sizing: border-box;}
-
-	.column {
-		float: left;
-		width: 50%;
-		padding: 5px;
-	}
-
-
-	.row::after {
-		content: "";
-		clear: both;
-		display: table;
 	}
 	
 </style>
@@ -203,33 +204,33 @@
 <br>
 <br>
 	
-<div class="container">
-	<div class="row">
-  		<div class="column">
-			<img src="ecp5.jpg" alt="Glamping" class="image" width="80%">
-		</div>
-		<div class="overlay">
-			<div class="textheading">Glamping
-			</div>
-				<div class="texttext">The next time you want to get away from home for awhile, try <b><i>Glamping</i></b> instead! Immerse yourself in nature without all the discomfort.
+<div class="row">
+	<div class="column">
+		<div class="container">
+  			<img src="img_avatar.png" alt="Glamping" class="image">
+ 				<div class="overlay">
+    				<div class="textheading">Hello World</div>
+                    <div class="texttext">The next time you want to get away from home for awhile, try <b><i>Glamping</i></b> instead! Immerse yourself in nature without all the discomfort.
 				</div>
 					
 				<div class="texttext2">If you're interested but unfamiliar with camping, try <b>GlampingCity</b>! Located in Area G, their packages are ideal for first-timers looking for an all-inclusive, hassle-free glamping getaway. Check them out at <a href="https://www.glampingcity.com/">glampingcity.com</a>!
 				</div>
+  				</div>
 		</div>
-	</div>
+   </div>
+
+<div class="column">
+	<div class="container">
+  		<img src="img_avatar.png" alt="Raintree Cove" class="image">
+  			<div class="overlay">
+   				<div class="textheading">Hello World</div>
+                <div class="texttext"><b>Raintree Cove</b> at Area C offers scenic views of the sea, plenty of areas to rest, lounge, or just hang out with friends and family. Perfect for those who prefer a quieter and more tranquil experience at the park! </div>
+                </div>
+                
+                
+  			
 </div>
-	
-<div class="container">
-	<div class="column">
-	<img src="ecp6.jpg" alt="Raintree Cove" class="image" width="80%" left:"500px">
-		<div class="overlay">
-			<div class="textheading">Raintree Cove
-			</div>
-				<div class="texttext"><b>Raintree Cove<b> at Area C offers scenic views of the sea, plenty of areas to rest, lounge, or just hang out with friends and family. Perfect for those who prefer a quieter and more tranquil experience at the park! 
-				</div>
-		</div>
-	</div>
+</div>
 </div>
 </section>
 	
