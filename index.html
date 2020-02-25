@@ -6,11 +6,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Rediscovering East Coast Park</title>
+<title>2Rediscovering East Coast Park</title>
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
 	
 <style>
+	
+	/* Paragraphs */
 	
 	p.ecp {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:60px; line-height:0.1;}
 	p.rediscover {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:20px; line-height:0.1;}
@@ -37,7 +39,61 @@
 		font-size:25px;
 		 text-decoration:none;
 	}
-		
+	
+	/* Hover Images */
+	
+	.container {
+		position: relative;
+		width: 50%;
+	}
+
+	.image {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		transition: .5s ease;
+		background-color: #d4c69e;
+		}
+
+	.container:hover .overlay {opacity: 1;}
+
+	.textheading{
+		color: #87413f;
+		font-size: 25px;
+		font-family:Satisfy;
+		position: absolute;
+		top: 20%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		text-align: center;
+		}
+
+	.texttext{
+		color: white;
+		font-size: 16px;
+		font-family:Playfair Display;
+		position: absolute;
+		top: 45%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		text-align: center;
+		}
+	
 </style>
 	
 </head>
@@ -115,72 +171,20 @@
 	
 <!-- Activities -->
 <section id="activities">
+	
 <br>
-
+	
 <div class="container">
-	<div class="row">
-			
-		<div class="col-md-6 thumbnail">
-			<div class="hovereffect">
-				<div class="col-md-12 photo-1"></div>
-					<a href="#mybox" data-toggle="modal" data-slide-to="0">
-						<div class="overlay">
-							<h2>Vivamus accumsan</h2>
-							<p>Lacinia ipsum</p> 
-						</div>
-					</a>
+	<img src="ecp5.jpg" alt="Glamping" class="image">
+		<div class="overlay">
+			<div class="textheading">Glamping</div>
+				<div class="texttext">The next time you want to get away from home for awhile, consider glamping instead of staying in a hotel – not only will you still get comfy beds, you'll also get to enjoy a whole new experience! If you're unfamiliar with camping but still want to try this novelty and get some Instagram-able pictures, try GlampingCity. Located in East Coast Park Area G, their packages are ideal for first-timers  looking for an all-inclusive, hassle-free glamping getaway, which offers style and practicality. Check them out at www.glampingcity.com!
 				</div>
-			</div>
+  			</div>
 		</div>
-	</div>	
+</div>
 </section>
-		
-	
-	<!-- End Gallery -->
 
-	
-	<div class="container">
-	  <div class="modal fade and carousel slide" id="mybox">
-		<div class="modal-dialog">
-		  <div class="modal-content">
-			<div class="modal-body">
-			  
-			  <button class="close" data-dismiss="modal" type="button">×</button>
-			  
-			  
-			  <div class="carousel-inner">
-					<div class="item active">
-					  <img src="img/1.jpg" alt="slide">
-					</div>
-					<div class="item">
-					  <img src="img/2.jpg" alt="slide">
-					</div>
-					<div class="item">
-					  <img src="img/3.jpg" alt="slide">
-					</div>
-					<div class="item">
-					  <img src="img/4.jpg" alt="slide">
-					</div>
-			  </div><!-- /.carousel-inner -->
-			  
-			  
-			  <a class="left carousel-control" href="#mybox" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left"></span>
-			  </a>
-			  <a class="right carousel-control" href="#mybox" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right"></span>
-			  </a>
-			  
-			</div><!-- /.modal-body -->
-		  </div><!-- /.modal-content -->
-		</div><!-- /.modal-dialog -->
-	  </div><!-- /.modal -->
-	</div><!-- /.container -->
-	
-	
-	
-	
-	
 	<!-- Press -->
 	
 	<section class="location" id="location">
