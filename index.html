@@ -14,10 +14,10 @@
 	
 	/* Headings & Paragraphs */
 	
-	h1 {text-align:center; font-family:Playfair Display; font-size:60px; margin:0 0 0.3em 0;}
+	h1.h1 {text-align:center; font-family:Playfair Display; font-size:60px; margin:0 0 0.3em 0;}
 	p.rediscover {text-align:center; font-family:Playfair Display; font-size:20px; margin:0 0 0.3em 0;}
 	p.about {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:18px; line-height:1.5;}
-	h2 {text-align:center; font-family:Playfair Display; font-size:45px; margin:0 0 0.3em 0;}
+	h2.h2 {text-align:center; font-family:Playfair Display; font-size:45px; margin:0 0 0.3em 0;}
 	p.caption {text-align:center; font-family:Playfair Display; font-size:16px;}
 	
 	/* Navbar */
@@ -88,29 +88,6 @@
 		text-align: center;
 	}
 	
-	/* Location */
-	
-	* {box-sizing: border-box;}
-
-	.columnmap {
-		float: left;
-		width: 33.33%;
-		padding: 0px 5px;
-		margin-left:10%
-	}
-	
-	.columnmap2 {
-		float: left;
-		width: 25%;
-		padding: 5px;
-	}
-
-	.rowmap::after {
-		content: "";
-		clear: both;
-		display: table;
-	}
-	
 </style>
 	
 </head>
@@ -132,7 +109,7 @@
 
 <body>
 
-<h1><b> East Coast Park </b></h1>
+<h1 class="h1"><b> East Coast Park </b></h1>
 <p class="rediscover">
 	rediscovering the nation's favourite park
 </p>
@@ -190,7 +167,7 @@
 <br>
 <br>
 	
-<h2>Activities</h2>
+<h2 class="h2">Activities</h2>
 <p class="caption">hover over the pictures for more details!</p>
 	
 <br>
@@ -269,37 +246,10 @@
 <br>
 <br>
 	
-<h2>Location Maps</h2>
+<h2 class="h2">Location Maps</h2>
 
-<div class="rowmap">
-	<div class="columnmap">
-		<img src="ecpa.jpg" alt="Area A" style="width:100%">
-	</div>
-	<div class="columnmap">
-		<img src="ecpb.jpg" alt="Area B" style="width:100%">
-	</div>
-	<div class="columnmap">
-		<img src="ecpc.jpg" alt="Area c" style="width:100%">
-	</div>
-</div>
-	
-<div class="rowmap">
-	<div class="columnmap2">
-		<img src="ecpd.jpg" alt="Area D" style="width:100%">
-	</div>
-	<div class="columnmap2">
-		<img src="ecpe.jpg" alt="Area E" style="width:100%">
-	</div>
-	<div class="columnmap2">
-		<img src="ecpf.jpg" alt="Area F" style="width:100%">
-	</div>
-	<div class="columnmap2">
-		<img src="ecpg.jpg" alt="Area G" style="width:100%">
-	</div>
-</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.790139018333!2d103.90999791445877!3d1.3007841990512619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da22b906ff05d1%3A0xaffda4da354a96fa!2sEast%20Coast%20Park!5e0!3m2!1sen!2ssg!4v1582623018887!5m2!1sen!2ssg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 	</section>
-	
-	
 	
 
 </body>
