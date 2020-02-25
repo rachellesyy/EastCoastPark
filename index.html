@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Rediscovering East Coast Park</title>
+<title>2Rediscovering East Coast Park</title>
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
 	
@@ -107,6 +107,21 @@
 		text-align: center;
 		}
 	
+		* {box-sizing: border-box;}
+
+	.column {
+		float: left;
+		width: 50%;
+		padding: 5px;
+	}
+
+
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+	
 </style>
 	
 </head>
@@ -187,8 +202,12 @@
 <br>
 <br>
 <br>
+	
 <div class="container">
-	<img src="ecp5.jpg" alt="Glamping" class="image" width="80%" left:"150px">
+	<div class="row">
+  		<div class="column">
+			<img src="ecp5.jpg" alt="Glamping" class="image" width="80%">
+		</div>
 		<div class="overlay">
 			<div class="textheading">Glamping
 			</div>
@@ -198,9 +217,11 @@
 				<div class="texttext2">If you're interested but unfamiliar with camping, try <b>GlampingCity</b>! Located in Area G, their packages are ideal for first-timers looking for an all-inclusive, hassle-free glamping getaway. Check them out at <a href="https://www.glampingcity.com/">glampingcity.com</a>!
 				</div>
 		</div>
+	</div>
 </div>
 	
 <div class="container">
+	<div class="column">
 	<img src="ecp6.jpg" alt="Raintree Cove" class="image" width="80%" left:"500px">
 		<div class="overlay">
 			<div class="textheading">Raintree Cove
@@ -208,6 +229,7 @@
 				<div class="texttext"><b>Raintree Cove<b> at Area C offers scenic views of the sea, plenty of areas to rest, lounge, or just hang out with friends and family. Perfect for those who prefer a quieter and more tranquil experience at the park! 
 				</div>
 		</div>
+	</div>
 </div>
 </section>
 	
