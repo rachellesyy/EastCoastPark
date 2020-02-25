@@ -14,60 +14,37 @@
 	
 	/* Paragraphs */
 	
-	p.ecp { text-align:center; font-family:Playfair Display; font-size:60px; margin:0 0 0.3em 0;}
-	p.rediscover {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:20px; margin:0 0 0.3em 0;}
-	p.about {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:18px; line-height:1.5;}
-	p.headings {margin-left:300px; margin-right:300px; text-align:center; font-family:Playfair Display; font-size:45px; line-height:1;}
+	p.ecp {text-align:center; font-family:Playfair Display; font-size:60px; margin:0 0 0.3em 0;}
+	p.rediscover {text-align:center; font-family:Playfair Display; font-size:20px; margin:0 0 0.3em 0;}
+	p.about {text-align:center; font-family:Playfair Display; font-size:18px; line-height:1.5;}
+	p.headings {text-align:center; font-family:Playfair Display; font-size:45px; line-height:1;}
 	
 	/* Navbar */
 
-	.nav{
- 		border:1px solid white;
-		border-width:1px 0;
-		list-style:none;
-		margin:0;
-		padding:0;
-		text-align:center;
-	}
+	.nav {text-align:center; margin:0; padding:0;}
 	
-	.nav li{display:inline;}
+	.nav li {display:inline;}
 
-	.nav a{
-		display:inline-block;
-		padding:10px 30px;
-		color: #d59696; 
-		font-family:Satisfy;
-		font-size:25px;
-		text-decoration:none;
+	.nav a {
+		display:inline-block; 
+		padding:10px 30px; 
+		font-family:Satisfy; 
+		font-size:25px; 
+		text-decoration:none; 
+		color: #d59696;
 	}
 	
 	/* Side by Side Images */
 
-	.column {
-		float: left;
-		width: 40%;
-		padding: 0px 20px;
-	}
+	.column {float: left; width: 40%; padding: 0px 20px;}
 
-	.row::after {
-		content: "";
-		clear: both;
-		display: table;
- 	}
+	.row::after {content: ""; clear: both; display: table;}
  
 	/* Overlaying */
  
-	.container {
-		position: relative;
-		width: 100%;
-		left:30%;
-	}
+	.container {position: relative; width: 100%; left:25%;}
  
-	.image {
-		display: block;
-		width: 100%;
-		height: auto;
-	}
+	.image {display: block; width: 100%; height: auto;}
 
 	.overlay {
 		position: absolute;
@@ -209,7 +186,7 @@
 		<div class="container">
   			<img src="ecp5.jpg" alt="Glamping" class="image">
  				<div class="overlay">
-    				<div class="textheading">Hello World</div>
+    				<div class="textheading">Glamping</div>
                     <div class="texttext">The next time you want to get away from home for awhile, try <b><i>Glamping</i></b> instead! Immerse yourself in nature without all the discomfort.
 				</div>
 					
@@ -223,7 +200,7 @@
 	<div class="container">
   		<img src="ecp6.jpg" alt="Raintree Cove" class="image">
   			<div class="overlay">
-   				<div class="textheading">Hello World</div>
+   				<div class="textheading">Raintree Cove</div>
                 <div class="texttext"><b>Raintree Cove</b> at Area C offers scenic views of the sea, plenty of areas to rest, lounge, or just hang out with friends and family. Perfect for those who prefer a quieter and more tranquil experience at the park! </div>
                 </div>
                 
